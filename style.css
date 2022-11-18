@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+   
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ 
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+
+}
+
+section ul{
+    list-style: none;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+   
+  
+}
+
+body {
+    background-image: url(./bg.jpg);
+   background-position: top center;
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-color: #121214;
+    
+}
+
+body {
+    font-family: Inter, sans-serif;
+    line-height: 160%s;     
+}
+
+
+main {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 24px; 
+    margin-top: 32px;
+
+}       
+
+h2
+{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    
+}
+
+p
+{
+    color: whitesmoke;
+    letter-spacing: -0.18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+section {
+    color:white;
+    box-shadow: 0 0 1rem rgb(144, 0, 169);
+    width: 30rem;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+section div {
+
+    color: #2A2634;
+    padding: 32px;
+    padding-top: 24px ;
+    border-radius: 8px;
+}
+section h2 {    
+
+    color: white;
+    letter-spacing: -47px;
+    
+   
+}
+
+ul {
+    display: flex;
+    margin: auto;
+
+    
+ 
+}
+
+.games-list img {
+
+    border-radius: 8px;
+    width: 90px;
+
+}   
+
+.streamers img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid lightslategray;
+
+}
+
+.redes {
+    gap: 20px;
+    padding: 30px;
+}
+aside {
+       box-shadow: 0 0 1rem rgb(144, 0, 169);
+       width: 20rem;
+       margin: auto;
+       border-radius: 20px;
+       
+}
+.p2 {
+    padding-bottom: 30px;  
+}
