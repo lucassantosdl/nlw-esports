@@ -16,22 +16,17 @@ section ul{
     gap: 16px;
     flex-wrap: wrap;
     margin-top: 24px;
-   
-  
 }
 
 body {
-    background-image: url(./bg.jpg);
+    background-image: url(assets/bg.jpg);
    background-position: top center;
    background-size: 100% auto;
    background-repeat: no-repeat;
    background-color: #121214;
+   font-family: Inter, sans-serif;
+   line-height: 160%s;     
     
-}
-
-body {
-    font-family: Inter, sans-serif;
-    line-height: 160%s;     
 }
 
 
@@ -45,18 +40,16 @@ main {
 
 }       
 
-h2
-{
+h2 {
     color: white;
     align-items: center;
     justify-content: center;
     display: flex;
     padding-top: 40px;
-    
+    margin-bottom: 10px;
 }
 
-p
-{
+p {
     color: whitesmoke;
     letter-spacing: -0.18px;
     align-items: center;
@@ -66,7 +59,6 @@ p
 }
 section {
     color:white;
-    box-shadow: 0 0 1rem rgb(144, 0, 169);
     width: 30rem;
     margin: auto;
     border-radius: 20px;
@@ -84,24 +76,30 @@ section h2 {
 
     color: white;
     letter-spacing: -47px;
-    
-   
 }
 
 ul {
     display: flex;
     margin: auto;
-
-    
  
 }
 
 .games-list img {
-
     border-radius: 8px;
     width: 90px;
-
 }   
+
+
+.games-list img:hover {
+   width: 100px;
+   transition: 0.4s;
+}  
+
+.streamers img:hover {
+    width: 80px;
+    height: 80px;
+    transition: 0.4s;
+}
 
 .streamers img {
     border-radius: 50%;
@@ -115,8 +113,23 @@ ul {
     gap: 20px;
     padding: 30px;
 }
+
+.redes img {
+    width: 55px;
+}
+
+.redes .img-redes {
+    width: 50px;
+}
+
+.redes a:hover {
+    font-size: 25px;
+    transition: 0.4s;
+}
+
 aside {
-       box-shadow: 0 0 1rem rgb(144, 0, 169);
+       list-style: none;
+       text-decoration: none;
        width: 20rem;
        margin: auto;
        border-radius: 20px;
@@ -124,4 +137,82 @@ aside {
 }
 .p2 {
     padding-bottom: 30px;  
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    
+    body {
+        width: 100%;
+        font-size: 20px;
+        align-items: center;
+        display: block;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    p {
+        align-items: center;
+        flex-wrap: nowrap;
+        font-size: 17px;
+    }
+
+    .h3 {
+        margin-left: 20px;
+    }
+
+    .p1 {
+        margin-left: 20px;
+    }
+
+    .games-list {
+        margin-right: 50px;
+    }
+
+    .streamers {
+        margin-right: 50px;
+    }
+
+    .redes {
+        margin-left: 40px;
+    }
 }
